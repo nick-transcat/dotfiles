@@ -30,6 +30,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 Then in tmux: prefix + `I` to fetch plugins.
 
+## Tools
+
+See [TOOLS.md](TOOLS.md) for the CLI tools/apps this config expects to be installed.
+
 ## Note
 
 This repo is public — nothing project-specific, or any secret/token/credential,
