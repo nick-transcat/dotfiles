@@ -5,6 +5,7 @@ Personal shell, terminal, and editor configuration.
 ## Contents
 
 - `zsh/.zshrc` — Zsh config (Oh My Zsh + Powerlevel10k, aliases, functions)
+- `zsh/.p10k.zsh` — Powerlevel10k prompt config
 - `tmux/tmux.conf` — tmux config (custom prefix, status bar, plugins via TPM)
 - `nvim/` — Neovim config (lazy.nvim, LSP, Telescope, Neo-tree, etc.)
 
@@ -14,6 +15,7 @@ Symlink the files into place, e.g.:
 
 ```sh
 ln -sf "$(pwd)/zsh/.zshrc" ~/.zshrc
+ln -sf "$(pwd)/zsh/.p10k.zsh" ~/.p10k.zsh
 ln -sf "$(pwd)/tmux/tmux.conf" ~/.tmux.conf
 ln -sf "$(pwd)/nvim" ~/.config/nvim
 ```
